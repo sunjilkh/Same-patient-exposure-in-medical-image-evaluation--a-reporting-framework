@@ -1,0 +1,37 @@
+{
+  "prior_output_reused_for": [
+    "frozen cohort manifest",
+    "fixed test assignments",
+    "rigorous training manifests",
+    "safe validation manifests"
+  ],
+  "old_predictions_reused": false,
+  "old_model_checkpoints_reused": false,
+  "old_xai_reused": false,
+  "cohort_images": 1200,
+  "cohort_patients": 855,
+  "decoded_content_duplicates": 0,
+  "folds": 5,
+  "architectures": [
+    "ResNet50",
+    "ConvNeXtTiny"
+  ],
+  "pathology_subtype_counts_exactly_matched_every_fold": true,
+  "rigorous_train_test_patient_overlap_zero": true,
+  "exact_or_decoded_test_content_overlap_zero": true,
+  "deterministic_settings": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "cuda": "12.8",
+    "device": "Tesla T4",
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "deterministic_algorithms": true
+  },
+  "xai_architecture": "ResNet50",
+  "xai_target": "true binary class",
+  "xai_border_fraction": 0.1,
+  "xai_quantitative_cases": 1200,
+  "xai_visual_case_selection": "seeded disease-stratified, selected before predictions"
+}

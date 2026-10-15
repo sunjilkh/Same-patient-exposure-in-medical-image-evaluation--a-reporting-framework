@@ -1,0 +1,37 @@
+{
+  "source_main_run_output": "/kaggle/working/_prior_nih_results/nih_corrected_leakage_audit",
+  "raw_data_root": "/kaggle/input",
+  "old_predictions_reused": false,
+  "old_model_checkpoints_reused": false,
+  "old_xai_reused": false,
+  "primary_cohort_images": 6000,
+  "primary_cohort_patients": 3911,
+  "folds": 5,
+  "architectures": [
+    "ResNet50",
+    "ConvNeXtTiny"
+  ],
+  "exact_full_finding_profile_plus_view_matched": true,
+  "mean_controlled_test_exposure_pct": 46.150000000000006,
+  "mean_candidate_utilization_pct": 89.70175225072651,
+  "all_rigorous_train_test_patient_overlap_zero": true,
+  "all_test_rawhash_overlap_zero": true,
+  "all_test_decoded_overlap_zero": true,
+  "deterministic_runtime": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "cuda": "12.8",
+    "device": "Tesla T4",
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "deterministic_algorithms": true,
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "threshold_policy": "Youden J selected on each model's validation predictions and locked before test evaluation",
+  "xai_architecture": "ResNet50",
+  "xai_method": "paired true-class Grad-CAM map similarity / centroid displacement",
+  "xai_quantitative_images": 600,
+  "xai_visual_case_selection": "seeded label/view-stratified selection before predictions",
+  "native_patch_run": true
+}

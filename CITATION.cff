@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code repository, data splits, or experimental audit framework, please cite it as below."
+title: "Same-patient exposure in medical image evaluation: a reporting framework and matched-replacement audit across three modalities"
+version: 1.0.0
+date-released: 2026-10-15
+url: "https://github.com/sunjilkh/Same-patient-exposure-in-medical-image-evaluation--a-reporting-framework"
+repository-code: "https://github.com/sunjilkh/Same-patient-exposure-in-medical-image-evaluation--a-reporting-framework"
+license: "Apache-2.0"
+authors:
+  - family-names: "Khandaker"
+    given-names: "Sunzil"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Khandaker"
+      given-names: "Sunzil"
+  title: "Same-patient exposure in medical image evaluation: a reporting framework and matched-replacement audit across three modalities"
+  journal: "Journal of Medical Systems"
+  year: 2026
+  status: "Under Review"

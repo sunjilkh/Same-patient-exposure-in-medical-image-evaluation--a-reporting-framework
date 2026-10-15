@@ -1,0 +1,43 @@
+{
+  "dataset": "SIIM-ISIC 2020 training data",
+  "standalone_run": true,
+  "old_predictions_reused": false,
+  "old_checkpoints_reused": false,
+  "old_xai_reused": false,
+  "primary_cohort_images": 1162,
+  "primary_cohort_patients": 796,
+  "primary_positive_prevalence": 0.5,
+  "lesion_id_available": true,
+  "lesion_id_coverage_pct": 100.0,
+  "folds": 5,
+  "architectures": [
+    "ResNet50",
+    "ConvNeXtTiny"
+  ],
+  "decoded_content_duplicates_remaining": 0,
+  "all_rigorous_patient_overlap_zero": true,
+  "all_rawhash_overlap_zero": true,
+  "all_decoded_overlap_zero": true,
+  "exact_target_diagnosis_site_sex_matching": true,
+  "mean_test_sibling_exposure_pct": 45.5216812194761,
+  "mean_candidate_utilization_pct": 98.75832238094571,
+  "mean_age_smd_leak_minus_rig": -0.005525877243576895,
+  "threshold_policy": "Youden J selected from each final model's validation predictions, then locked before test evaluation",
+  "deterministic_runtime": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "pandas": "2.3.3",
+    "cuda": "12.8",
+    "device": "Tesla T4",
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "deterministic_algorithms": true,
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "xai_architecture": "ResNet50",
+  "xai_method": "true-class paired Grad-CAM cosine/Pearson similarity and centroid displacement",
+  "xai_quantitative_images": 500,
+  "xai_visual_selection": "seeded target/site/exposure-stratified selection before predictions",
+  "capped_imbalance_sensitivity_run": true
+}

@@ -1,0 +1,17 @@
+row_id,Image Index,Patient_ID,Label,FindingProfile,View_Position,fold
+184,00020505_013.png,20505,0,No Finding,AP,4
+5904,00009016_002.png,9016,0,No Finding,AP,1
+4447,00019888_001.png,19888,0,Emphysema,AP,2
+1048,00016954_005.png,16954,0,No Finding,AP,5
+2625,00010638_000.png,10638,0,Infiltration,PA,3
+3213,00025405_000.png,25405,0,No Finding,PA,5
+1203,00007717_005.png,7717,0,No Finding,PA,1
+2799,00001720_000.png,1720,0,No Finding,PA,2
+4370,00000116_022.png,116,1,Effusion,AP,2
+3860,00022572_015.png,22572,1,Effusion|Infiltration,AP,5
+250,00005504_009.png,5504,1,Effusion,AP,1
+5842,00030162_004.png,30162,1,Effusion|Pneumothorax,AP,4
+2555,00000109_001.png,109,1,Atelectasis|Effusion,PA,5
+5178,00021230_002.png,21230,1,Atelectasis|Effusion|Infiltration,PA,2
+3775,00015417_000.png,15417,1,Effusion,PA,1
+3661,00018867_004.png,18867,1,Cardiomegaly|Effusion|Emphysema|Infiltration|Pneumothorax,PA,2

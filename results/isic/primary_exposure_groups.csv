@@ -1,0 +1,9 @@
+Architecture,ExposureType,ExposureGroup,n_images,n_patients,Accuracy,MeanTrueClassConfidence,MeanSiblingCount
+ConvNeXtTiny,any_same_patient_sibling,0,633,594,0.7898894154818326,0.7483909372407663,0.0
+ConvNeXtTiny,any_same_patient_sibling,1,529,204,0.7977315689981096,0.7497702547310964,1.7410207939508506
+ConvNeXtTiny,lesion_exposure_category,different_lesion_only,529,204,0.7977315689981096,0.7497702547310964,1.7410207939508506
+ConvNeXtTiny,lesion_exposure_category,no_patient_sibling,633,594,0.7898894154818326,0.7483909372407663,0.0
+ResNet50,any_same_patient_sibling,0,633,594,0.7867298578199052,0.7293008202484145,0.0
+ResNet50,any_same_patient_sibling,1,529,204,0.8034026465028355,0.7415381280620277,1.7410207939508506
+ResNet50,lesion_exposure_category,different_lesion_only,529,204,0.8034026465028355,0.7415381280620277,1.7410207939508506
+ResNet50,lesion_exposure_category,no_patient_sibling,633,594,0.7867298578199052,0.7293008202484145,0.0
