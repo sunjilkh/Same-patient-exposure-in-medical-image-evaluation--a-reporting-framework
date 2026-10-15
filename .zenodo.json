@@ -1,0 +1,22 @@
+{
+  "title": "Same-patient exposure in medical image evaluation: a reporting framework and matched-replacement audit across three modalities",
+  "description": "Official code, data split manifests, and reproducibility audit artifacts for the manuscript: 'Same-patient exposure in medical image evaluation: a reporting framework and matched-replacement audit across three modalities' (submitted to Journal of Medical Systems, Springer). Includes 635-check automated evidence-consistency suite, out-of-fold predictions, and sibling exposure analysis across NIH ChestX-ray14, SIIM-ISIC 2020, and Kermany OCT2017.",
+  "creators": [
+    {
+      "name": "Khandaker, Sunzil"
+    }
+  ],
+  "access_right": "open",
+  "license": "Apache-2.0",
+  "upload_type": "software",
+  "keywords": [
+    "data leakage",
+    "same-patient exposure",
+    "medical image classification",
+    "reproducibility audit",
+    "chest x-ray",
+    "dermoscopy",
+    "optical coherence tomography",
+    "Grad-CAM"
+  ]
+}
